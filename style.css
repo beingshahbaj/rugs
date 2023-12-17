@@ -147,10 +147,9 @@ main {
   align-items: center;
 }
 .cotegories div a img {
-  width: 240px;
-  height: 310px;
+  width: 220px;
+  height: 293px;
 }
-
 .cotegories div a {
   transition: 0.2s ease-in-out;
   color: black;

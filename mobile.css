@@ -29,13 +29,13 @@
 
 
     main{
-        margin: 0 !important;
+        margin-inline: 9px;
     }
     .heading{
         height: fit-content;
     }
     .edit {
-        gap: 5px;
+        gap: 20px;
         align-items: center;
         justify-content: space-between;
         display: flex;
@@ -45,7 +45,7 @@
     }
     .edit div{
         width: 100%;
-        height: auto;
+        height: 40vh;
     }
     .cotegories{
         gap: 10px !important;
@@ -55,8 +55,19 @@
     }
 
     .cotegories div a img {
-        /* width: 50%; */
+        width: 29vw;
        height: auto;
+    }
+    .carousel-item {
+        border: .5px solid #d5d5d5;
+        position: relative;
+        display: none;
+        float: left;
+        width: 100%;
+        margin-right: -100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: transform .6s ease-in-out;
     }
 
      .carousel-item img{ object-position: center;
@@ -68,10 +79,21 @@
         overflow: auto;
     }
 
+    .rooms{
+        padding: 7px;
+    }
+
+    .rooms img{
+        object-position: center;
+        object-fit: cover;
+        height: 37vh !important;
+    }
+
     .spotimg{
+        background-size: contain;
         font-size: 12px;
         object-fit: contain;
-    height: 250px;
+    height: 192px;
         width: 100% !important;
     }
     .heading p{
