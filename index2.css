@@ -68,13 +68,6 @@ body {
     margin: 0;
 }
 
-.navbar{
-    color: black;
-    position: sticky !important;
-    background-color: white;
-    box-shadow: 17px 19px 10px -14px #cbcbcb;
-  
-}
 
 @media(max-width:520px) {
 

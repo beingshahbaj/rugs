@@ -1,9 +1,7 @@
 const nvBar = document.querySelector(".navbar");
 const menuList = document.querySelector(".menu-list");
-const menuitem = document.querySelector(".menu-item");
-
-const aTag = menuList.children ;
-const TagA =  menuitem.children
+console.log(menuList)
+const aTag = menuList.children;
 
 window.addEventListener("scroll", () => {
   if (window.pageYOffset > 600) {
@@ -13,8 +11,8 @@ window.addEventListener("scroll", () => {
     for (let i = 0; i < aTag.length; i++) {
       aTag[i].classList.add("text-dark");
       aTag[i].classList.remove("text-white");
-      TagA[i].classList.add("text-dark")
-      TagA[i].classList.remove("text-white")
+      // TagA[i].classList.add("text-dark")
+      // TagA[i].classList.remove("text-white")
 
     }
   } else {
@@ -23,8 +21,7 @@ window.addEventListener("scroll", () => {
     for (let i = 0; i < aTag.length; i++) {
       aTag[i].classList.remove("text-dark");
       aTag[i].classList.add("text-white");
-      TagA[i].classList.add("text-dark")
-      TagA[i].classList.remove("text-white")
+      
 
     }
   }
