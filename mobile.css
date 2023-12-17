@@ -1,0 +1,161 @@
+@media(max-width:480px) {
+    body{
+        height: 500vh;
+    }
+    .navbar{
+        position: relative;
+        /* display: none !important; */
+        padding-inline: 12px !important;
+        height: auto;
+        display: flex;
+        justify-content: space-between !important;
+        z-index: 1001;
+    }
+    .h1, h1 {
+        font-size: calc(1.375rem + -0.5vw) !important;
+    }
+
+    .navbar .logo-img{
+        display: none;
+    }
+    header{
+        height: fit-content;
+    }
+
+    .navbar ul {
+        display: none !important;
+       
+    }
+
+
+    main{
+        margin: 0 !important;
+    }
+    .heading{
+        height: fit-content;
+    }
+    .edit {
+        gap: 5px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        
+        flex-direction: column;
+    }
+    .edit div{
+        width: 100%;
+        height: auto;
+    }
+    .cotegories{
+        gap: 10px !important;
+        width: 100vw;
+       display: flex;
+       overflow: auto;
+    }
+
+    .cotegories div a img {
+        /* width: 50%; */
+       height: auto;
+    }
+
+    .spotlight{
+        gap: 5px !important;
+        overflow: auto;
+    }
+
+    .spotimg{
+        font-size: 12px;
+        object-fit: contain;
+    height: 250px;
+        width: 100% !important;
+    }
+    .heading p{
+        font-weight: 600;
+        text-align: center;
+        font-size: 14px !important;
+    }
+
+    .footer-nav{
+ margin-inline: 5px;
+    }
+
+    
+    .logo-img a img {
+      
+        width: 50px;
+    }
+
+    .social-media a img {
+        width: 20px;
+    }
+
+    .tryinroom {
+        background-size: contain;
+        background-position: center;
+        margin-bottom: 13px;
+        margin-top: 19px;
+        width: 100%;
+        height: 132px;
+        background-image: url("https://d3o59fu9acgbkr.cloudfront.net/jrc2021/home/master/2023/10/9/jrc-desktop-banner-10-9-2023-10-19-52-AM.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .rooms{
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+
+    .try{
+        width: 100% !important;
+    }
+
+    .heading span {
+        line-height: 2.5;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 21px;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    
+    footer{
+        height: auto;
+    }
+    .box{
+        display: block !important;
+    }
+
+    .menu{
+        z-index: 10;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        display: block !important;
+    }
+    .mobilemenu{z-index: 100;
+        transition: .5s ease-in-out;
+        width: 80vw;
+        height: 100vh;
+        display: block !important;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: rgba(255, 255, 255, 0.742);
+    }
+    .close{
+        display: none !important;
+    }
+
+    .designes a img {
+        height: 66px;
+        width: 52px;
+        object-fit: contain;
+       
+    }
+
+    
+
+}

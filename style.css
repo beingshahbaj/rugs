@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amatic SC", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+  text-transform: capitalize;
+}
+
+h3 {
+  font-family: "Cormorant Garamond", serif;
+}
+p {
+  font-family: "Amatic SC", sans-serif;
+}
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 18px;
+
+  text-decoration: none !important;
+}
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  cursor: pointer;
+  position: relative;
+  color: white;
+  transition: 0.5s ease-in-out;
+  font-family: "Poppins", sans-serif !important;
+  width: 100%;
+  height: 120px;
+  background-color: transparent;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 50px !important;
+}
+
+.navbar ul {
+  gap: 30px;
+  display: flex;
+}
+
+.menu-list {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.menu-list a{
+    transition: .3s ease-in;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-img a img {
+  mix-blend-mode: multiply;
+  width: 150px;
+}
+
+.logo {
+  gap: 50px;
+  display: flex;
+}
+.logo-name {
+  font-family: "Amatic SC", sans-serif !;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  /* background-color: aqua; */
+}
+.heading span {
+  line-height: 2.5;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+main {
+  margin-inline: 100px;
+}
+.edit {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  /* background-color: brown; */
+}
+
+.edit div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  width: 49%;
+}
+
+.edit div img {
+  object-position: center;
+  transition: 0.5s ease-in-out;
+  width: 100%;
+  object-fit: cover;
+}
+.edit div span {
+  font-size: 20px;
+  color: white;
+
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.edit div img:hover {
+  width: 105%;
+}
+
+.cotegories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cotegories div a img {
+  width: 240px;
+  height: 310px;
+}
+
+.cotegories div a {
+  transition: 0.2s ease-in-out;
+  color: black;
+  gap: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cotegories div:hover a {
+  color: rgb(206, 83, 83);
+}
+
+.tryinroom {
+  margin-bottom: 50px;
+  margin-top: 80px;
+  width: 100%;
+  height: 460px;
+  background-image: url("https://d3o59fu9acgbkr.cloudfront.net/jrc2021/home/master/2023/10/9/jrc-desktop-banner-10-9-2023-10-19-52-AM.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.detail {
+  width: 50%;
+  height: 100%;
+}
+.imgbox {
+  overflow: hidden;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.room p {
+  font-weight: 400;
+  text-align: center;
+  font-size: 30px !important;
+}
+
+.spotlight {
+  gap: 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.spotimg {
+  box-shadow: inset 0px -26px 41px 1px black;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 30%;
+  height: 600px;
+}
+.s1 {
+  background-image: url("https://d3o59fu9acgbkr.cloudfront.net/jrc2021/home/master/2023/11/9/jrc-desktop-banner-11-9-2023-9-56-47-AM.jpg");
+}
+.s2 {
+  background-image: url("https://d3o59fu9acgbkr.cloudfront.net/jrc2021/home/master/2023/11/9/jrc-desktop-banner-11-9-2023-9-56-56-AM.jpg");
+}
+
+.s3 {
+  background-image: url("https://d3o59fu9acgbkr.cloudfront.net/jrc2021/home/master/2023/10/7/jrc-desktop-banner-10-7-2023-12-01-06-PM.jpg");
+}
+
+footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(239, 239, 239);
+}
+.footer-nav {
+  margin-inline: 50px;
+}
+
+.f-logo {
+  align-items: center;
+  height: 150px;
+}
+.social-media {
+  gap: 15px;
+}
+.social-media a img {
+  width: 40px;
+}
+
+.mobilemenu {
+  display: none !important;
+}
+.menu {
+  display: none !important;
+}
+
+.box {
+  display: none !important;
+}
+
+.color{
+   background-color: rgb(234, 100, 100) !important;
+}
+.designes {
+    position: relative;
+  z-index: 5;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 100vw;
+  height: fit-content;
+  background-color: rgb(234, 100, 100) !important;
+
+
+  left: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.bottom {
+  bottom: 200%;
+}
+.arrow{
+    z-index: 0;
+    font-size: 103px !important;
+    position: absolute;
+    right: 165px;
+    top: -21%;
+}
+
+.top {
+  bottom: -226%;
+}
+.designes a img {
+  height: 200px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.designes a {
+  cursor: pointer;
+  overflow: hidden;
+  height: 220px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0) !important;
+}
+
