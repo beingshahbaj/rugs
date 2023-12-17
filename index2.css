@@ -58,3 +58,40 @@
 .price{
     margin: 0;
 }
+
+@media(max-width:520px) {
+
+    .item-cantainer {
+        padding-inline: 10px;
+        row-gap: 16px;
+        width: 100vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+
+    .item-card {
+        background-color: rgb(243, 243, 243);
+        gap: 5px;
+        border-radius: 8px;
+        color: rgb(66, 66, 66);
+        padding: 10px;
+        border: .5px solid rgb(207, 207, 207);
+        position: relative;
+        width: 46vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .item-image {
+        border-radius: 3px;
+        object-position: center;
+        height: 221px;
+        object-fit: cover;
+        width: 100%;
+    }
+}
