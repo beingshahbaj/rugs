@@ -1,6 +1,6 @@
 @media(max-width:520px) {
     body{
-        height: 500vh;
+       
     }
     .navbar{
         position: relative;
@@ -58,6 +58,10 @@
         /* width: 50%; */
        height: auto;
     }
+
+     .carousel-item img{ object-position: center;
+    object-fit: cover;
+    height: 90vh !important;}
 
     .spotlight{
         gap: 5px !important;
