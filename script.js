@@ -34,6 +34,10 @@ window.addEventListener("wheel", (e) => {
   if (e.deltaY > 0) {
     nvBar.style.top = "-100%";
   }
+
+  if (e.offsetX < 0) {
+    closeMenu()
+  }
 });
 
 const open = document.querySelector(".open");
