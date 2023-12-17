@@ -34,7 +34,7 @@ body {
 }
 .item-image {
   object-position: center;
-  height: 267px;
+  height: 212px;
   object-fit: cover;
   width: 14vw;
 }

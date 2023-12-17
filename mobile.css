@@ -161,7 +161,10 @@
         transform: translate(-50%,-50%);
         display: block !important;
     }
-    .mobilemenu{z-index: 100;
+    .mobilemenu{
+        padding-inline: 20px;
+        padding-top: 65px;
+        z-index: 100;
         transition: .5s ease-in-out;
         width: 80vw;
         height: 100vh;
@@ -169,8 +172,25 @@
         position: fixed;
         top: 0;
         left: -100%;
-        background-color: rgba(255, 255, 255, 0.742);
+        background-color: rgb(255, 255, 255);
     }
+
+    .mobilemenu div li a{
+        color: rgb(56, 56, 56);
+        border-radius: 4px;
+        background: #e9e6e6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 20px;
+    }
+
+    .mobilemenu div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .close{
         display: none !important;
     }
