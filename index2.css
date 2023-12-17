@@ -1,5 +1,5 @@
 .item-cantainer{
-    g-wrap: wrap;
+   
     padding-inline: 40px;
         row-gap: 16px;
         width: 100vw;
@@ -9,9 +9,17 @@
         justify-items: center;
      align-items: center;
     
-
+   
 
 }
+
+body {
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    align-items: center;
+}
+
 .item-card {
     background-color: rgb(243, 243, 243);
     gap: 5px;
@@ -25,6 +33,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 17px 19px 10px -9px #cbcbcb;
 }
 .item-image {
     object-position: center;
@@ -57,6 +66,14 @@
 }
 .price{
     margin: 0;
+}
+
+.navbar{
+    color: black;
+    position: sticky !important;
+    background-color: white;
+    box-shadow: 17px 19px 10px -14px #cbcbcb;
+  
 }
 
 @media(max-width:520px) {
@@ -93,5 +110,36 @@
         height: 221px;
         object-fit: cover;
         width: 100%;
+    }
+
+    .designes a {
+        font-size: 12px;
+        cursor: pointer;
+        overflow: hidden;
+        height:auto ;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(0, 0, 0) !important;
+        align-content: space-between;
+    }
+    .designes {
+        margin-top: 10px;
+        position: relative;
+        z-index: 5;
+        padding: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 95vw;
+        height: fit-content;
+        background-color: rgb(243, 243, 243);
+        border: .5px solid rgb(207, 207, 207);
+        border-radius: 5px;
+        box-shadow: rgb(203, 203, 203) 17px 19px 10px -9px;
+        left: 0;
+        transition: 0.3s ease-in-out;
     }
 }

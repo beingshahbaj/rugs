@@ -260,25 +260,26 @@ footer {
    background-color: rgb(234, 100, 100) !important;
 }
 .designes {
+  margin-top: 10px;
     position: relative;
   z-index: 5;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  position: absolute;
-  width: 100vw;
+  width: 95vw;
   height: fit-content;
-  background-color: rgb(234, 100, 100) !important;
+  background-color: rgb(243, 243, 243);
+  border: .5px solid rgb(207, 207, 207);
+  border-radius: 5px;
+  box-shadow: rgb(203, 203, 203) 17px 19px 10px -9px;
 
 
   left: 0;
   transition: 0.3s ease-in-out;
 }
 
-.bottom {
-  bottom: 200%;
-}
+
 .arrow{
     z-index: 0;
     font-size: 103px !important;

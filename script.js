@@ -1,8 +1,9 @@
 const nvBar = document.querySelector(".navbar");
 const menuList = document.querySelector(".menu-list");
+const menuitem = document.querySelector(".menu-item");
 
-const aTag = menuList.children;
-console.log(aTag);
+const aTag = menuList.children ;
+const TagA =  menuitem.children
 
 window.addEventListener("scroll", () => {
   if (window.pageYOffset > 600) {
@@ -12,6 +13,9 @@ window.addEventListener("scroll", () => {
     for (let i = 0; i < aTag.length; i++) {
       aTag[i].classList.add("text-dark");
       aTag[i].classList.remove("text-white");
+      TagA[i].classList.add("text-dark")
+      TagA[i].classList.remove("text-white")
+
     }
   } else {
     nvBar.style.backgroundColor = "";
@@ -19,6 +23,9 @@ window.addEventListener("scroll", () => {
     for (let i = 0; i < aTag.length; i++) {
       aTag[i].classList.remove("text-dark");
       aTag[i].classList.add("text-white");
+      TagA[i].classList.add("text-dark")
+      TagA[i].classList.remove("text-white")
+
     }
   }
 });
@@ -70,18 +77,18 @@ document.addEventListener("click", (event) => {
 const designe = document.getElementsByClassName("designe");
 const designeBox = document.querySelector(".designes");
 
-console.log(designe);
+// console.log(designe);
 
-Array.from(designe).forEach((element) => {
+// Array.from(designe).forEach((element) => {
  
-  element.addEventListener("click", () => {
-    element.classList.toggle("color");
+//   element.addEventListener("click", () => {
+//     element.classList.toggle("color");
    
     
-    designeBox.classList.toggle("bottom");
-    designeBox.classList.toggle("top");
-  });
-});
+//     designeBox.classList.toggle("bottom");
+//     designeBox.classList.toggle("top");
+//   });
+// });
 
 function color() {
   nvBar.style.backgroundColor = "white";
